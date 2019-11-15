@@ -2,6 +2,7 @@ let todos = []
 const tbl = document.querySelector('.todo-table')
 
 let btn = document.querySelector('#add-btn')
+
 btn.addEventListener('click', (event) => {
     event.preventDefault()
     let todoItem = document.querySelector('#todo-value')

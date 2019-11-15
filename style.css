@@ -1,0 +1,43 @@
+html {
+    display: grid;
+    background-color: #AAFFAA;
+    color: black;  
+}
+
+.banner {
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+.container {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.del-btn {
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    margin-left: 10%;
+}
+
+.todo-table {
+    margin: 25px auto;
+    font-size: 1rem;
+    padding: 5px;
+    width: 90%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#add-btn {
+    background-color: white;
+    color: black;
+}
